@@ -1,6 +1,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*{
+  transition: 300ms;
+}
+
+
 body {
     background-color: #f5f5f5;
     color: #4e4e4e;
@@ -810,10 +815,8 @@ body {
     transition: 0.3s;
   }
   
-  #hero .social-links a:hover {
-    -webkit-box-shadow: 10px 10px 99px 6px rgb(255, 255, 255);
-    -moz-box-shadow: 10px 10px 99px 6px rgb(255, 255, 255);
-    box-shadow: 10px 10px 99px 6px rgb(255, 255, 255);
+  #hero .social-links i:hover {
+    filter: drop-shadow(0 0 15px rgba(256,256,256));
   }
   
   /*
